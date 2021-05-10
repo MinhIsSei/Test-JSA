@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.black {
+    width: 100%;
+    height: 1.7vh;
+    background-color: white
+}
+
+.mid {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.middle-part {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    height: 450px;
+    padding: 24px 32px 32px;
+}
+
+.signIn{
+    font-size: 3.2rem;
+    line-height: 1.25;
+    font-weight: 300;
+    color: rgba(0,0,0,0.9);
+    padding: 0 0 4px 0;
+}
+
+
+.text p {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: lightslategray;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group input {
+    height: 52px;
+    width: 100%;
+    padding: 28px 12px 6px;
+    box-sizing: border-box;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #000;
+    z-index: 10;
+    margin-bottom: 25px;
+    border-radius:4px; 
+}
+
+.email{
+    margin-top: 20px;
+}
+
+.input-group span {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    padding: 0;
+    transition: 0.5s;
+    pointer-events: none;
+    background: #fff;
+}
+
+.input-group input:focus~span,
+.input-group input:valid~span {
+    top: 1px;
+    left: 12px;
+    padding: 2px 4px;
+    font-size: 12px;
+}
+
+input[type="button"] {
+    background-color: #0073b1;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    line-height: 40px;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    z-index: 0;
+    background: #0a66c2;
+    border-radius: 28px;
+    margin-top:20px;
+}
+
+input[type="button"]:hover {
+    background: #0077b5;
+}
+
+.mid-last {
+    margin: 40px 200px;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 19px;
+}
+
+.join {
+    font-size: 18px;
+    color: #0077b5;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    margin-top: 165px;
+}
+
+footer ul {
+    max-width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 1px;
+    color: #000;
+    font-size: 13px;
+}
+
+.footer-black {
+    color: #000;
+    font-weight: 900;
+}
+
+.last-in {
+    color: #fff;
+    background: #000;
+    font-size: 15px;
+}
+
+.forgotPass{
+    color: #0073b1;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size:18px;
+}
+
+img{
+    top: 12.5%;
+    left: 39.5%;
+    position: fixed;
+}
